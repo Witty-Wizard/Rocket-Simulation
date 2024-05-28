@@ -1,0 +1,50 @@
+{
+    "name": "Simulation",
+    "remoteUser": "SITL",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "USERNAME": "SITL",
+            "GID": "1000",
+            "UID": "1000"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "charliermarsh.ruff",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-iot.vscode-ros",
+                "smilerobotics.urdf",
+                "redhat.vscode-xml",
+                "tamasfe.even-better-toml",
+                "timonwong.shellcheck",
+                "yzhang.markdown-all-in-one",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    },
+    "workspaceFolder": "/home/SITL/src",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/SITL/src,type=bind",
+    "mounts": [],
+    "runArgs": [
+        "--privileged",
+        "--net=host"
+    ],
+    "features": {
+        "ghcr.io/devcontainers/features/desktop-lite:1": {}
+    },
+    "forwardPorts": [
+        6080,
+        5901
+    ],
+    "portsAttributes": {
+        "6080": {
+            "label": "Desktop (Web)"
+        },
+        "6901": {
+            "label": "Desktop (VNC)"
+        }
+    }
+}
