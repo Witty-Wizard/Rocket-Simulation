@@ -6,7 +6,6 @@ ARG UID=1000
 ARG GID=$UID
 
 # Install basic dependencies
-# Install basic dependencies
 RUN apt-get update && apt-get install -y \
     sudo \ 
     curl \
@@ -40,12 +39,9 @@ USER $USERNAME
 RUN mkdir -p /home/$USERNAME/src
 WORKDIR /home/$USERNAME/
 
-CMD ["python", "/home/SITL/src/ardupilot/Tools/autotest/sim_vehicle.py","-v copter" , "--console", "--map"]
+# Clone the ArduPilot repository with submodules
+RUN git clone --recurse-submodules https://github.com/ArduPilot/ardupilot.git
 
+# Set environment variables
 ENV AUTOTEST_HOME=/home/$USERNAME/src/ardupilot/Tools/autotest
 ENV PATH=$AUTOTEST_HOME:$PATH
-# Install additional software or dependencies as needed
-# For example, installing Python
-# RUN sudo apt-get update && sudo apt-get install -y python3 python3-pip
-
-# Add any project-specific setup here
