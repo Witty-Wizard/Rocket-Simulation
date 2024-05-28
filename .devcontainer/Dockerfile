@@ -40,7 +40,9 @@ USER $USERNAME
 RUN mkdir -p /home/$USERNAME/src
 WORKDIR /home/$USERNAME/
 
-ENV AUTOTEST_HOME=/home/SITL/src/ardupilot/Tools/autotest
+CMD ["python", "/home/SITL/src/ardupilot/Tools/autotest/sim_vehicle.py","-v copter" , "--console", "--map"]
+
+ENV AUTOTEST_HOME=/home/$USERNAME/src/ardupilot/Tools/autotest
 ENV PATH=$AUTOTEST_HOME:$PATH
 # Install additional software or dependencies as needed
 # For example, installing Python
