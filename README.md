@@ -1,10 +1,10 @@
-<div align="center">
+<p align="center">
     <a href="https://discord.gg/Wwhjfx6dJG"><img src="https://img.shields.io/discord/1013056365884878858?color=%235865F2&logo=discord&logoColor=%23FFFFFF&style=plastic" alt="Discord"></a>
     <img src="https://img.shields.io/github/license/Gagan-Space/Rocket-Simulation" alt="GitHub License">
     <img src="https://img.shields.io/github/stars/Gagan-Space/Rocket-Simulation?style=flat" alt="GitHub Repo stars">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/Gagan-Space/Rocket-Simulation?style=flat">
     <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/Gagan-Space/Rocket-Simulation">
-</div>
+</p>
 
 # Rocket Simulation
 
@@ -22,15 +22,7 @@ Before getting started, ensure you have the following prerequisites installed:
 
 To begin working with the Rocket Simulation project, follow these steps:
 
-1. **Clone the ArduPilot repository**:
-
-   Clone the ArduPilot repository to your local machine using the following command:
-
-   ```bash
-   git clone --recurse-submodules https://github.com/ArduPilot/ardupilot.git
-   ```
-
-2. **Open the folder inside Dev Container in Visual Studio Code**:
+1. **Open the folder inside Dev Container in Visual Studio Code**:
 
 Once you have cloned the repository, navigate to the cloned directory using Visual Studio Code.
 
@@ -38,11 +30,11 @@ Once you have cloned the repository, navigate to the cloned directory using Visu
 - If you have the Remote - Containers extension installed, you'll be prompted to reopen the folder in a container. If not, you can install it from [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 - Click on "Reopen in Container" when prompted. This will set up the development environment within a Docker container with all the necessary dependencies.
 
-3. **Start Developing**:
+2. **Start Developing**:
 
 Once you have opened the project in the dev container, you're ready to start developing your rocket simulation using ArduPilot. You can find relevant documentation and examples within the ArduPilot repository to guide you through the process.
 
-4. **Additional Notes**:
+3. **Additional Notes**:
 
 - Make sure Docker is running before opening the project in the dev container.
 - Refer to the ArduPilot documentation for detailed information on simulation setup, rocket dynamics modeling, and control algorithms.
