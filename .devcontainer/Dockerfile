@@ -43,5 +43,5 @@ WORKDIR /home/$USERNAME/
 RUN git clone --recurse-submodules https://github.com/ArduPilot/ardupilot.git
 
 # Set environment variables
-ENV AUTOTEST_HOME=/home/$USERNAME/src/ardupilot/Tools/autotest
+ENV AUTOTEST_HOME=/home/$USERNAME/ardupilot/Tools/autotest
 ENV PATH=$AUTOTEST_HOME:$PATH
