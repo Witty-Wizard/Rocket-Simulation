@@ -1,1 +1,7 @@
 ardupilot/
+logs/
+terrain/
+*.bin
+*.parm
+*.tlog
+*.raw
