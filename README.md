@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://discord.gg/Wwhjfx6dJG"><img src="https://img.shields.io/discord/1013056365884878858?color=%235865F2&logo=discord&logoColor=%23FFFFFF&style=plastic" alt="Discord"></a>
+    <a href="https://discord.gg/Wwhjfx6dJG"><img src="https://img.shields.io/discord/1013056365884878858?color=%235865F2&logo=discord&logoColor=%23FFFFFF&style=flat" alt="Discord"></a>
     <img src="https://img.shields.io/github/license/Gagan-Space/Rocket-Simulation" alt="GitHub License">
     <img src="https://img.shields.io/github/stars/Gagan-Space/Rocket-Simulation?style=flat" alt="GitHub Repo stars">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/Gagan-Space/Rocket-Simulation?style=flat">
