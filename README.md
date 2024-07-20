@@ -1,11 +1,9 @@
 <p align="center">
     <a href="https://discord.gg/Wwhjfx6dJG"><img src="https://img.shields.io/discord/1013056365884878858?color=%235865F2&logo=discord&logoColor=%23FFFFFF&style=flat" alt="Discord"></a>
-    <img src="https://img.shields.io/github/license/Gagan-Space/Rocket-Simulation" alt="GitHub License">
-    <img src="https://img.shields.io/github/stars/Gagan-Space/Rocket-Simulation?style=flat" alt="GitHub Repo stars">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Gagan-Space/Rocket-Simulation?style=flat">
-    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/Gagan-Space/Rocket-Simulation">
-    <br>
-    <img alt="GitHub Issues or Pull Requests" src="https://github.com/Gagan-Space/Rocket-Simulation/assets/48916902/2c77d7aa-13e4-48ca-8f85-3b8de800fbe4">
+    <img src="https://img.shields.io/github/license/Witty-Wizard/Rocket-Simulation" alt="GitHub License">
+    <img src="https://img.shields.io/github/stars/Witty-Wizard/Rocket-Simulation?style=flat" alt="GitHub Repo stars">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Witty-Wizard/Rocket-Simulation?style=flat">
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/Witty-Wizard/Rocket-Simulation">
 </p>
 
 # Rocket Simulation
